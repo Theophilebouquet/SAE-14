@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+main{
+    width: 80%;
+    margin: auto;
+    background-color: gray;
+}
+body{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+}
+nav{
+    line-height: 40px;
+    display: flex;
+}
+a{
+    border-style: double;
+    width: calc(100%/3);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.centrea{
+    background-color: blueviolet;
+    padding: 10px;
+    width:calc(100%/2) ;
+}
+.centre{
+    background-color: white;
+    padding: 10px;
+    width: calc(100%/2);
+}
+.colonnedroite{
+    width: 300px;
+    padding: 10px;
+    width: calc(100%/4);
+}
+.droitea{
+    width: 300px;
+    padding: 10px;
+    width: calc(100%/4);
+}
+.colonnegauche{
+    width: 300px;
+    padding: 10px;
+    width: calc(100%/4);
+}
+#ci{
+    border-style:hidden;
+    font-weight: 600;
+}
+.chat{
+    width: 100px;
+
+}
+footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 1em;
+    width: calc(100%/1.34);
+    margin: auto;
+}
+#fo{
+    border-style:hidden;
+    text-decoration: underline;
+}
